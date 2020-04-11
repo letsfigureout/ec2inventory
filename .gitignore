@@ -1,0 +1,8 @@
+# files
+*.py[cod]
+
+# directories
+.env
+.vscode
+__pycache__
+cdk.out

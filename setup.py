@@ -9,7 +9,7 @@ setuptools.setup(
     name="ec2inventory",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="An EC2 inventory CDK Python app",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
@@ -19,7 +19,14 @@ setuptools.setup(
     packages=setuptools.find_packages(where="ec2inventory"),
 
     install_requires=[
-        "aws-cdk.core==1.24.0",
+        "aws-cdk.core==1.32.2",
+        "aws-cdk.aws_iam",
+        "aws-cdk.aws_sqs",
+        "aws-cdk.aws_dynamodb",
+        "aws-cdk.aws_events",
+        "aws-cdk.aws_events_targets",
+        "aws-cdk.aws_lambda",
+        "aws-cdk.aws_lambda_event_sources",
     ],
 
     python_requires=">=3.6",

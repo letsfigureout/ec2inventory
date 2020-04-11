@@ -1,0 +1,7 @@
+README.md
+setup.py
+ec2inventory/ec2inventory.egg-info/PKG-INFO
+ec2inventory/ec2inventory.egg-info/SOURCES.txt
+ec2inventory/ec2inventory.egg-info/dependency_links.txt
+ec2inventory/ec2inventory.egg-info/requires.txt
+ec2inventory/ec2inventory.egg-info/top_level.txt
